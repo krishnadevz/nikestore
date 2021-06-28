@@ -66,9 +66,10 @@ export default class Context extends Component {
         ]
     }
     render() {
+        const {products}=this.state;
         return (
-           <DataContext.Provider>
-               
+           <DataContext.Provider  value={{products}}>
+               {this.props.children}
            </DataContext.Provider>
         )
     }
