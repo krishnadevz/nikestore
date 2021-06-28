@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Menu from "./svg/bars-solid.svg";
 import Close from "./svg/times-solid.svg";
 import CartIcon from "./svg/shopping-cart-solid.svg";
+import Nike from "./svg/nike.svg";
 import { Link } from "react-router-dom";
 import "./css/Header.css";
 export default class Header extends Component {
@@ -22,14 +23,11 @@ export default class Header extends Component {
         </div>
         <div className="logo">
           <h1>
-            <Link to="/">Nike</Link>
+            <img src={Nike} alt="nikelogo" width="50" />
           </h1>
         </div>
         <nav>
           <ul className={toggle ? "toggle" : ""}>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
             <li>
               <Link to="/">New Releases</Link>
             </li>
