@@ -1,7 +1,8 @@
-import React, { Component } from 'react'
-export const DataContext = React.Context();
-export default class Context extends Component {
-    state ={
+import React, { Component } from 'react';
+
+export const DataContext = React.createContext();
+export  class DataProvider extends Component {
+    state = {
         products :[
             {
                 "_id": "1",
@@ -66,7 +67,8 @@ export default class Context extends Component {
         ]
     }
     render() {
-        const {products}=this.state;
+        const {products} = this.state;
+
         return (
            <DataContext.Provider  value={{products}}>
                {this.props.children}
