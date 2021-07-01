@@ -10,7 +10,7 @@ export class DataProvider extends Component {
         src: "https://github.com/krishnadevz/nikestore/blob/main/nike.jpg",
         description: "UI/UX designing, html css tutorials",
         content:
-          "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
+          " shoes",
         price: 23,
         colors: ["red", "black", "crimson", "teal"],
         count: 1,
@@ -21,7 +21,7 @@ export class DataProvider extends Component {
         src: "https://www.upsieutoc.com/images/2020/06/27/img2.jpg",
         description: "UI/UX designing, html css tutorials",
         content:
-          "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
+          "shoes.",
         price: 19,
         colors: ["red", "crimson", "teal"],
         count: 1,
@@ -32,7 +32,7 @@ export class DataProvider extends Component {
         src: "https://www.upsieutoc.com/images/2020/06/27/img3.jpg",
         description: "UI/UX designing, html css tutorials",
         content:
-          "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
+          "shoes",
         price: 50,
         colors: ["lightblue", "white", "crimson", "teal"],
         count: 1,
@@ -43,7 +43,7 @@ export class DataProvider extends Component {
         src: "https://www.upsieutoc.com/images/2020/06/27/img4.jpg",
         description: "UI/UX designing, html css tutorials",
         content:
-          "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
+          "shoes",
         price: 15,
         colors: ["orange", "black", "crimson", "teal"],
         count: 1,
@@ -54,7 +54,7 @@ export class DataProvider extends Component {
         src: "https://www.upsieutoc.com/images/2020/06/27/img5.jpg",
         description: "UI/UX designing, html css tutorials",
         content:
-          "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
+          "shoes",
         price: 10,
         colors: ["orange", "black", "crimson", "teal"],
         count: 1,
@@ -65,7 +65,7 @@ export class DataProvider extends Component {
         src: "https://www.upsieutoc.com/images/2020/06/27/img6.jpg",
         description: "UI/UX designing, html css tutorials",
         content:
-          "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
+          "shoes.",
         price: 17,
         colors: ["orange", "black", "crimson", "teal"],
         count: 1,
