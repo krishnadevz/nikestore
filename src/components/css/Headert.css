@@ -5,3 +5,10 @@ display: inline-block;
 .title{
     color: black;
 }
+.header{
+display: flex;    
+margin-left: 925px;
+align-content: space-around;
+margin-top: -60px;
+
+}
