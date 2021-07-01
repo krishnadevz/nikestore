@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { DataContext } from "../Context";
-import Shoe from "../images/nike.jpg"
+import Shoe from "../images/nike.jpg";
+import "../css/Products.css";
 export class Products extends Component {
   static contextType = DataContext;
 /*   constructor(props,context){
