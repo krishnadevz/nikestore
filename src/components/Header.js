@@ -3,6 +3,8 @@ import Menu from "./svg/bars-solid.svg";
 import Close from "./svg/times-solid.svg";
 import CartIcon from "./svg/shopping-cart-solid.svg";
 import Nike from "./svg/nike.svg";
+import SearchBar from "./svg/search.svg";
+import Heart from "./svg/heart-svg.svg";
 import { Link } from "react-router-dom";
 import "./css/Header.css";
 export default class Header extends Component {
@@ -49,6 +51,9 @@ export default class Header extends Component {
             <li className="close">
               <img src={Close} alt="" width="20" />
             </li>
+            <img src={SearchBar} alt="search" width="50" height="18" />
+            <img src={Heart} alt="search" width="50" height="18" />
+
           </ul>
           <div className="nav-cart">
             <span>0</span>
