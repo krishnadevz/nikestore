@@ -3,7 +3,7 @@ import './css/Middle.css'
 export default class Middle extends Component {
   render() {
     return (
-      <div>
+      <div id="row">
         <h1>Men's Trainers & Shoes</h1>
         <ul>
           <lu>

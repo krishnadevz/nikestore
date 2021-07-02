@@ -2,6 +2,12 @@ ul{
     justify-content: space-around;
 
 }
+#row {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 .slider {
     -webkit-appearance: none;
     width: 12%;
@@ -32,3 +38,7 @@ ul{
     background: #9fa1a1;
     cursor: pointer;
   }
+  h1{
+    font-size : 100%;
+  }
+  
