@@ -11,8 +11,8 @@ class App extends React.Component {
      <div className="app">
      
      <Router>
-       <Headert/>
-       <Header/>
+       <Headert/> 
+       <Header/> 
        <Middle/>
        <Section />
      </Router>

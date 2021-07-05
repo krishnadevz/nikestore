@@ -5,6 +5,7 @@ export default class Middle extends Component {
   render() {
     return (
       <div >
+        <div className=""></div>
         <p>Home page   <img src={Arrow} alt="" width="12" />     Men  
              <img src={Arrow} alt="" width="12" />    Shoes  <p className="para">Men's Trainers & Shoes<p>--490 results</p></p> </p>
              

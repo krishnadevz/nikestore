@@ -25,10 +25,11 @@ export default class Header extends Component {
         </div>
         <div className="logo">
           <h1 className="nikelogo">
-            <img src={Nike} alt="nikelogo" width="50" />
+            <img src={Nike} alt="nikelogo" width="50"  />
           </h1>
+          
         </div>
-        <nav>
+        <nav >
           <ul className={toggle ? "toggle" : ""}>
             <li>
               <Link to="/">New Releases</Link>
@@ -51,7 +52,7 @@ export default class Header extends Component {
             <li className="close">
               <img src={Close} alt="" width="20" />
             </li>
-            &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+            
             <img src={SearchBar} className="logos" alt="search" width="50" height="18" />
             <img src={Heart} className="logoe" alt="search" width="50" height="18" />
 
@@ -63,7 +64,9 @@ export default class Header extends Component {
             </Link>
           </div> */}
         </nav>
+        <div className="border"></div>
       </header>
+      
     );
   }
 }

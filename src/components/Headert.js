@@ -18,12 +18,11 @@ export default class Headert extends Component {
           <p className="title">Just Landed: The Nike App <Link>Learn more</Link> </p>
         </div>
         <div className="header">
-          <p>Sign In</p>
-          &ensp;&ensp;
-          <p>Join Us</p>
-          &ensp;&ensp;
-          <p>Help</p>
+          <p>Sign In</p>&ensp;&ensp;
+          <p>Join Us</p>&ensp;&ensp;
+          <p>Help</p>&ensp;&ensp;
         </div>
+    {/* <div className="vertical"></div> */}
       </headert>
     );
   }

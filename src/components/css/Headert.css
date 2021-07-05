@@ -9,6 +9,9 @@ display: inline-block;
 display: flex;    
 margin-left: 925px;
 align-content: space-around;
-margin-top: -60px;
+margin-top: -52px;
 
+}
+.vertical{
+    border-bottom: 1px solid black;
 }
