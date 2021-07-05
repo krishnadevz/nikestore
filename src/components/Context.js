@@ -52,7 +52,7 @@ export class DataProvider extends Component {
         _id: "5",
         title: "Nike Shoes 05",
         src: "https://www.upsieutoc.com/images/2020/06/27/img5.jpg",
-        description: "nike running shoes 2 colors",
+        description: "nike running shoes                          2 colors",
         content:
           "shoes",
         price: 10,
