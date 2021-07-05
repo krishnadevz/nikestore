@@ -42,16 +42,9 @@
 .card p{
     margin: 10px 0;
 }
-.card button{
-    border: none;
-    outline: none;
-    background: #333;
-    color: white;
-    width: 100%;
+.Link{
+    color: rgb(29, 29, 29);
     height: 40px;
-    display: block;
-    cursor: pointer;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin: 15px 0;
+    
+    margin: 15px 0 0 150px;
 }
