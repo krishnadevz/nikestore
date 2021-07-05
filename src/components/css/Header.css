@@ -10,7 +10,8 @@ header .logo a{
     text-decoration: none;
     text-transform: uppercase;
     color: black;
-}
+/*     float: right;
+ */}
 header nav{
     display: flex;
 }
@@ -76,6 +77,10 @@ header .close{
         left: 0;
     }
 }
-nav{
-    margin-left: -320px;
-}
+/* nav{
+    margin-right: -400px;
+} */
+
+/* .nikelogo{
+margin-right: 750px;
+} */

@@ -24,7 +24,7 @@ export default class Header extends Component {
           <img src={Menu} alt="" width="20" />
         </div>
         <div className="logo">
-          <h1>
+          <h1 className="nikelogo">
             <img src={Nike} alt="nikelogo" width="50" />
           </h1>
         </div>
@@ -51,16 +51,17 @@ export default class Header extends Component {
             <li className="close">
               <img src={Close} alt="" width="20" />
             </li>
-            <img src={SearchBar} alt="search" width="50" height="18" />
-            <img src={Heart} alt="search" width="50" height="18" />
+            &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+            <img src={SearchBar} className="logos" alt="search" width="50" height="18" />
+            <img src={Heart} className="logoe" alt="search" width="50" height="18" />
 
           </ul>
-          <div className="nav-cart">
+          {/* <div className="nav-cart">
             <span>0</span>
             <Link to="/cart">
               <img src={CartIcon} alt="" width="20" />
             </Link>
-          </div>
+          </div> */}
         </nav>
       </header>
     );
