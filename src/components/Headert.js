@@ -15,12 +15,14 @@ export default class Headert extends Component {
     return (
       <headert>
         <div>
-          <h4 className="title">Just Landed: The Nike App</h4>
+          <h4 className="title">Just Landed: The Nike App <Link>Learn more</Link> </h4>
         </div>
         <div className="header">
-          <h4>Sign In</h4>
-          <h4>Join Us</h4>
-          <h4>Help</h4>
+          <p>Sign In</p>
+
+          <p>Join Us</p>
+          
+          <p>Help</p>
         </div>
       </headert>
     );
